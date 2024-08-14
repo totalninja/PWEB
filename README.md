@@ -1,2 +1,2 @@
-# PWEB
+# Pweb
 Atividades da disciplina PWEB
