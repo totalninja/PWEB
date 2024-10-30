@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site Simples</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <header>
+    <h1>Atividade 12</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Área do Retângulo</h2>
+      <label for="base">Base:</label>
+      <input type="number" id="base">
+      <label for="altura">Altura:</label>
+      <input type="number" id="altura">
+      <button onclick="calcularArea()">Calcular Área</button>
+      <p>Resultado: <span id="resultado-area"></span></p>
+    </section>
+
+    <section>
+      <h2>Dados da Conta</h2>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome">
+      <label for="banco">Banco:</label>
+      <input type="text" id="banco">
+      <label for="conta">Número da Conta:</label>
+      <input type="text" id="conta">
+      <label for="saldo">Saldo:</label>
+      <input type="number" id="saldo">
+      <button onclick="mostrarConta()">Criar Conta</button>
+      <div id="info-conta"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Atividade 12</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
