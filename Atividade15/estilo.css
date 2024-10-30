@@ -1,0 +1,89 @@
+body {
+    background-color: #ffcc00;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    /* Fundo branco */
+    padding: 30px;
+    /* Aumentado para mais espaço */
+    border-radius: 12px;
+    /* Cantos arredondados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Sombra mais forte */
+    width: 400px;
+    /* Aumentado para maior largura */
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    /* Cor mais escura */
+    margin-top: 15px;
+    /* Espaçamento superior */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    /* Aumentado para mais conforto */
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #ffcc00;
+    /* Bordas amarelas */
+    border-radius: 6px;
+    /* Cantos arredondados */
+    box-sizing: border-box;
+    font-size: 16px;
+    /* Aumentado para melhor legibilidade */
+}
+
+fieldset {
+    border: 2px solid #ffcc00;
+    /* Borda amarelo */
+    padding: 15px;
+    /* Aumentado para mais espaço */
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    /* Verde */
+    color: white;
+    /* Texto branco */
+    border: none;
+    /* Sem borda */
+    border-radius: 5px;
+    /* Cantos arredondados */
+    font-size: 16px;
+    /* Aumentado para melhor legibilidade */
+    transition: background-color 0.3s;
+    /* Efeito de transição */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
