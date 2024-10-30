@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Alunos</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Cadastro de Alunos</h1>
+    <form id="formulario-aluno">
+      <div class="campo">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" placeholder="Digite o nome completo" required>
+      </div>
+
+      <div class="campo">
+        <label for="ra">RA (5 dígitos):</label>
+        <input type="text" id="ra" placeholder="Digite o RA" pattern="\d{5}" required>
+      </div>
+
+      <div class="campo">
+        <label for="nota1">Nota 1 (0-10):</label>
+        <input type="number" id="nota1" min="0" max="10" required>
+      </div>
+
+      <div class="campo">
+        <label for="nota2">Nota 2 (0-10):</label>
+        <input type="number" id="nota2" min="0" max="10" required>
+      </div>
+
+      <div class="campo">
+        <label for="nota3">Nota 3 (0-10):</label>
+        <input type="number" id="nota3" min="0" max="10" required>
+      </div>
+
+      <button type="submit">Cadastrar Aluno</button>
+    </form>
+
+    <section id="resultados" class="resultados"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
